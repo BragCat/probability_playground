@@ -1,22 +1,22 @@
 /*
  Program to test three-door problem.
- This problem is based on how the host choose the damn door.
+ This problem is based on how the host chooses the damn door.
 
  Assume I choose door 0, and the displayed door is door 1.
- Let event A means that door 0 has the car.
- Let event B means that door 1 has a goat.
- Then we need the probability of event A|B
+ Let event A mean door 0 has the car.
+ Let event B mean door 1 has a goat.
+ Then we need the probability of event A|B.
  P(A|B) = P(AB) / P(B) = (1/3) / (2/3) = 1/2
  This implementation is based on the assumption that
     the host should never know whether the displayed door has a goat until he opens it.
 
  Another implementation may be based on the assumption that
     the host will always choose to open a door that has a goat.
-    In this case the probability will be 2/3.
+    In this case, the probability will be 2/3.
 
  The conflict is because if the host has no idea whether the door will have a car or a goat
     before opening it, then this is totally a conditional probability problem,
-    otherwise the door left will has the initial probability 2/3 which the unselected doors hold.
+    otherwise, the door left will have the initial probability 2/3 which the unselected doors hold.
  */
 
 //use std::io;
