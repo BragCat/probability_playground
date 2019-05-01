@@ -1,5 +1,5 @@
 [package]
-name = "three_door"
+name = "probability_playground"
 version = "0.1.0"
 authors = ["bragcat <bragcat.li@gmail.com>"]
 edition = "2018"
